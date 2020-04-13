@@ -1,0 +1,124 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #d3cfcf;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+.navbar-brand h1 {
+  /* Restaurant name */
+  font-family: "Roboto", sans-serif;
+  color: #951c49;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px; /*pending to test*/
+  line-height: 0.75;
+  vertical-align: center;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #2e292b;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #5a5959;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+#col-xs-12{
+  vertical-align: middle;
+  margin: 20px;
+}
+
+.row{
+background-color:#D9D9D9;
+border: solid salmon 1px;
+padding: 2vw;
+}
+
+.row h2{
+  padding: 10px;
+}
+
+}
+/* END HOME PAGE */
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+ .row {
+   padding: 10px;
+ }
+
+ #main-content.container {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  }
+}
+  /* End Header */
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 {
+    /* Restaurant name */
+    font-size: 6vw;
+    vertical-align: center;
+  }
+
+  #main-content.container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
+  /* End Header */
+ 
+
